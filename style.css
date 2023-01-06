@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #E1D7C6;
+   
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+
+}
+
+
+.right-h1 {
+    font-size: 30px;
+}
+
+.right-text {
+    margin-top: 30px;
+    font-size: 24px;
+    
+}
+
+.father-button {
+    margin-top: 50px;
+}
+
+.button {
+ text-decoration: none;
+ font-size: 18px;
+ background-color: rgb(8, 8, 8);
+ display: inline-block;
+ padding: 15px;
+ color: rgb(247, 239, 239);
+ font-weight: 700;
+ border-radius:4px;
+}
+
+.button:hover {
+    color:#000;
+    background-color:#fff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 240px;
+}
+
+.name {
+    text-decoration: underline;
+}
+
+
+    
+@media (max-width: 768px)
+{
+    .main-header{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .right-h1 {
+        font-size: 25px;
+    }
+
+    .right-text {
+        font-size: 16px;
+    }
+
+    img {
+        margin-bottom: 32px;
+    }
+
+    
+}
